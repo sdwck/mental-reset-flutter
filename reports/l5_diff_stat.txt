@@ -1,0 +1,14 @@
+ lib/data/mock_session_repository.dart |  7 +++++--
+ lib/data/session.dart                 | 19 +++++++++++++++++++
+ lib/data/session_repository.dart      |  4 +++-
+ lib/main.dart                         | 27 ++++++++++++++++++++-------
+ lib/router.dart                       | 11 ++++++++++-
+ lib/screens/login_screen.dart         | 34 ++++++++++++++++++++++++++++++----
+ lib/screens/profile_screen.dart       |  6 ++++++
+ pubspec.yaml                          |  2 ++
+ 8 files changed, 95 insertions(+), 15 deletions(-)
+new file: lib/data/api_client.dart
+new file: lib/data/http_session_repository.dart
+new file: lib/data/token_store.dart
+new file: lib/state/auth_model.dart
+new file: test/

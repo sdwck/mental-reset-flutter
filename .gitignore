@@ -1,0 +1,12 @@
+**/.dart_tool/
+**/build/
+**/bin/
+**/obj/
+**/*.db
+**/uploads/
+**/.flutter-plugins*
+**/.idea/
+**/*.iml
+reports/*.html
+reports/.claude/
+reports/__pycache__/

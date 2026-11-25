@@ -1,0 +1,16 @@
+PASS health 200
+PASS register 201
+PASS register dup 409
+PASS login wrong 401
+PASS sessions no token 401
+PASS create session 201
+PASS create invalid 400
+PASS list paginated envelope
+PASS search q
+PASS get by id 200
+PASS update 200
+PASS notes create 201
+PASS file upload 201
+PASS delete 204
+PASS get deleted 404
+---- 15 passed, 0 failed
